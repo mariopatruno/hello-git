@@ -27,3 +27,7 @@ function generaOggettoSubString(inputArray: string[]): Record<string, string[]> 
   
     return oggettoFinale;  // Restituisce l'oggetto contenente le chiavi e le sottostringhe associate
   }
+
+  const inputArray: string[] = ["test", "foo", "bar"];
+  const result: Record<string, string[]> = generaOggettoSubString(inputArray);
+  result; // Il risultato verrà visualizzato nella console dopo l'esecuzione

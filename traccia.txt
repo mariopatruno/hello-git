@@ -1,0 +1,19 @@
+Scrivi nel migliore modo possibile il codice
+
+TASK
+• Creare una funzione che, dato in input un array di stringhe, ritorni un oggetto in cui le chiavi sono le stringhe di input, 
+e per ogni chiave il valore è un array di tutte le sue La funzione dovrebbe presentare controlli sulle eccezioni, 
+seguite dalla loro gestione sottostringhe all'esterno.
+
+ESEMPIO * Input -> ["test", "foo" "bar"]
+
+• Output -> {
+
+test. ["1", "e", "s", "t". "te", "es", "st", "les", "est"],
+
+foo: ["", "o", "o", "fo", "oo"], bar ["b", "a", "r", "ba", "ar"]
+
+NOTA
+
+*Nella funzione stessa non si devono invocare strumenti di log (es console.log) per mostrare il risultato.
+Si ritorni il valore, e lo si stampi a schermo fuori dal corpo della funzione.
